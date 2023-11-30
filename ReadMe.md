@@ -1,5 +1,6 @@
 # Short ReadMe.py for reproduction of Table 1
-For paper see [Arxiv](https://arxiv.org/pdf/2310.09516v1.pdf)
+For paper see [Arxiv](https://arxiv.org/pdf/2310.09516v1.pdf).
+The whole environment is in requirements.txt. It's highly recommended to mainly check the important packages: pytorch, dgl, pytorch_geometric, ogb.
 ## Cora,Citeseer and Pubmed.
 ```python run_small_graph.py --alp 1 --dataset cora --K 3 --prop_step 16 --hidden 32 --metric hits@k --gpu 0 --dynamic dynamic --lam0 0.01 --lr 0.01```
 
